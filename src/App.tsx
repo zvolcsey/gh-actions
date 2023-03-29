@@ -1,7 +1,6 @@
-import { FC } from "react"
+import React, { FC } from 'react'
 
-const App:FC<{}> = (props) => {
-
+const App: FC<Record<string, never>> = () => {
   return (
     <div>
       <p>Hello World!</p>
